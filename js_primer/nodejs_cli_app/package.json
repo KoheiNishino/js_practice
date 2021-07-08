@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_cli_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "5.0",
+    "marked": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
