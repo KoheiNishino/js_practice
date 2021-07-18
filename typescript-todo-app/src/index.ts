@@ -1,5 +1,5 @@
-import World from './world'
-
-const root: HTMLElement | null = document.getElementById('root')
-const world = new World('Hello World!!!')
-world.sayHello(root)
+// 追加ボタンの処理
+const addButton : HTMLElement | null = document.getElementById("add-button")
+if (addButton) {
+  addButton.addEventListener('click', () => alert("Test!!!"))
+}
