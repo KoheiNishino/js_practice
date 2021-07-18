@@ -3,11 +3,34 @@
 
   <head>
     <meta charset="utf-8">
-    <title>typescript-boilerplate</title>
+    <title>typescript-todo-app</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
 
   <body>
-    <div id="root"></div>
+    <div class="add-area">
+      <input type="text" placeholder="TODOを入力">
+      <button id="add-button">追加</button>
+    </div>
+    <div class="unfinished-area">
+      <p class="title">未完了のTODO</p>
+      <ul id="unfinished-todos">
+        <li>
+          test1
+          <button id="finish-button">完了</button>
+          <button id="delete-button">削除</button>
+        </li>
+      </ul>
+    </div>
+    <div class="finished-area">
+      <p class="title">完了したTODO</p>
+      <ul id="finished-todos">
+        <li>
+          test2
+          <button id="back-button">戻す</button>
+        </li>
+      </ul>
+    </div>
     <script src="bundle.js"></script>
   </body>
 
